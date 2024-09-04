@@ -1,0 +1,14 @@
+const anuncios = [
+    {
+        "id": 11,
+        "alternativo": "fun",
+        "caminho": "1724968856063.jpg",
+        "created_at": "2024-08-29T22:00:56.000Z"
+    },
+    {
+        "id": 12,
+        "alternativo": "tes",
+        "caminho": "1724968882685.jpg",
+        "created_at": "2024-08-29T22:01:22.000Z"
+    }
+]
