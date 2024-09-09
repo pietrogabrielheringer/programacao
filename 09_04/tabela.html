@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+    <title>Senai - Vix</title>
+    <style>
+        #relogio {
+            font-family: 'Arial', sans-serif;
+            font-size: 2em;
+            color: #333;
+            text-align: center;
+            position: fixed;
+            right: 20px;
+            top: 20px;        
+        }
+
+        #tabela_aulas{
+            font-family: 'Arial', sans-serif;
+        }        
+    </style>
 </head>
+
 <body>
+    <div id="relogio"></div>
     <table id="tabela_aulas">
         <thead>
-            <th>Início</th>
-            <th>Fim</th>
-            <th>Turma</th>
-            <th>Instrutor</th>
-            <th>Unidade curricular</th>
-            <th>Ambiente</th>
-            
-
-
+            <tr>
+                <th>Início</th>
+                <th>Fim</th>
+                <th>Turma</th>
+                <th>Instrutor</th>
+                <th>Unidade Curricular</th>
+                <th>Ambiente</th>
+            </tr>
         </thead>
+        <tbody>
+        </tbody>
     </table>
-
-    <script src="./js/instrutores.js"></script>
     <script type="module" src="./js/tabela.js"></script>
+    <script type="module" src="./js/relogio.js"></script>
 </body>
+
 </html>
